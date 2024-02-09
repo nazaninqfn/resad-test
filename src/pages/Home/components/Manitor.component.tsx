@@ -47,7 +47,7 @@ const ManitorGuarding = ({
                 </div>
                 <div className="box-footer">
                 <div className="d-flex justify-content-between align-items-center">
-                    <span>پرسنل فعال</span>
+                    <span id="ppa">پرسنل فعال</span>
                     <div className="d-flex align-items-center">
                         <span className="ms-3">{manitorData?.persnol?.length} +</span>
                         {

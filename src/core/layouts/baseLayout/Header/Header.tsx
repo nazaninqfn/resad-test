@@ -60,7 +60,12 @@ const Header = () => {
 
         <div className="">
             <FaRegCalendarCheck className="time" />
-            <span className="time me-2">امروز {date}{formattedDate} ساعت {time.toLocaleTimeString()}</span>
+            
+            <span className="time me-2">
+              <span>
+              امروز {date}{formattedDate} ساعت {time.toLocaleTimeString()}
+              </span>
+            </span>
         </div>
       </div>
       <div className="header-search">
