@@ -1,0 +1,45 @@
+.alarm-box {
+    background-color: #1bbf57;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-bar {
+    width: 350px;
+    @media (max-width: 1002px) {
+        display: none !important;
+    }
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+}
+
+.body-container {
+    background-color: #F8FBFF;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+.app {
+    background-color: #F8FBFF;
+   
+}
+
+.menu-bar-mobile {
+    display: none !important;
+    @media (max-width: 1002px) {
+        display: block !important;
+    }
+    background-color: #161819;
+    color: #fff;
+    button {
+        color: #fff;
+    }
+}

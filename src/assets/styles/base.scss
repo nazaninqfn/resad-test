@@ -1,0 +1,143 @@
+@import "./variables/colors.module";
+@import "./variables/sizes.module";
+
+// ===== Fonts =====
+@font-face {
+  font-family: iransansBlack;
+  src: url("../fonts/iransans-black.woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: iransansBold;
+  src: url("../fonts/iransans-bold.woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: iransansRegular;
+  src: url("../fonts/iransans-regular.woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: iransansWeb;
+  src: url("../fonts/IRANSansWeb.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: iransansWeb-per;
+  src: url("../fonts/Iranian-Sans.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: iran;
+  src: url("../fonts/iransans.ttf");
+  font-style: normal;
+}
+
+.font-iransansBlack {
+  font-family: iransansBlack !important;
+}
+.font-iransansBold {
+  font-family: iransansBold !important;
+}
+.font-iransansRegular {
+  font-family: iransansRegular !important;
+}
+.font-iransansWeb {
+  font-family: iransansWeb !important;
+}
+
+.font-iransans-per {
+  font-family: iransansWeb-per !important;
+}
+.font-iransans-per {
+  font-family: iran !important;
+}
+
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: iran !important;
+  overflow: hidden;
+  height: 100%;
+  overscroll-behavior-y: contain;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior-y: contain;
+  direction: rtl !important;
+  font-family: iran !important;
+  background-color: #F8FBFF;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left) !important;
+  // overflow: hidden !important;
+}
+
+#root {
+  background-color: #F8FBFF;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none !important;
+  }
+  scrollbar-width: none;
+  height: 100%;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #717070;
+}
+
+.thin-scrollbar {
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(221, 111, 190);
+
+  &::-webkit-scrollbar {
+    width: 5px !important;
+    height: 7px !important;
+    background-color: rgb(221, 111, 190);
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    border-radius: 1rem;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgb(148, 4, 107);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.body-container {
+  height: 100vh;
+}
+
+.MuiButtonBase-root {
+  font-family: iransansRegular !important;
+
+}
+.apexcharts-tooltip-title {
+   font-family: iransansRegular !important;
+}
+
+.apexcharts-tooltip-text {
+   font-family: iransansRegular !important;
+}
+.apexcharts-text {
+   font-family: iransansRegular !important;
+
+}
+.apexcharts-legend-text {
+   font-family: iransansRegular !important;
+
+}

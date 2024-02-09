@@ -1,0 +1,18 @@
+// Light Colors
+$baseMode-bg: #1AB646;
+$baseMode-dark: #000;
+
+$pardisan-primary: #1AB646;
+$pardisan-primary-dark: #1AB646;
+$pardisan-primary-light: #1AB646;
+$pardisan-primary-xxxlight: #8de0a5;
+$pardisan-primary-contrast: #ffffff;
+
+:export {
+  baseMode-bg: $baseMode-bg;
+  baseMode-dark: $baseMode-dark;
+  pardisan-primary: $pardisan-primary;
+  pardisan-primary-dark: $pardisan-primary-dark;
+  pardisan-primary-light: $pardisan-primary-light;
+  pardisan-primary-contrast: $pardisan-primary-contrast;
+}
